@@ -54,7 +54,7 @@ function setup() {
 
   var the_canvas = createCanvas(640, 360);
   the_canvas.parent('thesketch');
-  json = loadJSON('../openpaths_fabiantheblind.json');
+  json = loadJSON('https://raw.githubusercontent.com/fabiantheblind/open-paths-p5js/master/openpaths_fabiantheblind.json');
   // console.log(json);
   background(255);
 //     for(var j = 0; j < json.length;j++){
