@@ -55,7 +55,7 @@ function setup() {
   var the_canvas = createCanvas(640, 360);
   the_canvas.parent('thesketch');
   json = loadJSON('../../openpaths_fabiantheblind.json');
-  // console.log(json);
+  console.log(json);
   background(255);
 //     for(var j = 0; j < json.length;j++){
 //     var loc = json[j];
@@ -83,7 +83,7 @@ strokeWeight(1);
 stroke(0);
 beginShape();
 for(var i = 0; i < json.length;i++){
-    console.log(json[i].lat);
+    // console.log(json[i].lat);
       var x = width * ((DE_westlon - json[i].lon) / (DE_westlon - DE_eastlon));
     var y = ( height * ((DE_northlat - json[i].lat)/(DE_northlat - DE_southlat)));
 
