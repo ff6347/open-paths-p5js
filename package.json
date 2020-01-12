@@ -23,6 +23,6 @@
     "grunt-contrib-uglify": "0.2.7",
     "grunt-contrib-watch": "0.6.1",
     "grunt-wiredep": "1.9.0",
-    "load-grunt-tasks": "0.6.0"
+    "load-grunt-tasks": "5.1.0"
   }
 }
